@@ -6,13 +6,8 @@ import "./api/axiosDefaults";
 import SignUpForm from "./pages/auth/SignUpForm";
 import SignInForm from "./pages/auth/SignInForm";
 
-
-
 function App() {
-  
-
-  return (
-    
+  return (    
     <div className={styles.App}>
       <NavBar />
       <Container className={styles.Main}>
@@ -23,7 +18,7 @@ function App() {
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>
-    </div>    
+    </div>
   );
 }
 
